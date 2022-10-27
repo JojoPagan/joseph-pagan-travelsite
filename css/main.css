@@ -2,21 +2,37 @@
     background-color: #fef9f5;
     height: 475px;
     width: 100%;
+    display: flex;
+
 }
 
 .hero-content {
     display: flexbox;
     text-align: left;
-    padding: 200px;
+    padding: 100px 100px 200px 100px;
 }
 
 .hero-content__title {
-    font-size: 20px;
+    font-size: 36px;
     font-weight: bold;
     color: #284a69;
+    
+    
 }
 
 .hero-content__text {
     color: #284a69;
     margin: 20px 0;
+}
+
+.hero-image{
+    
+   position: relative;
+    margin: 100px 200px 200px 100px;
+    max-width: 100%;
+    
+
+
+
+
 }
