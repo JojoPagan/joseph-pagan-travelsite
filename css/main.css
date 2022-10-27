@@ -1,0 +1,22 @@
+.hero {
+    background-color: #fef9f5;
+    height: 475px;
+    width: 100%;
+}
+
+.hero-content {
+    display: flexbox;
+    text-align: left;
+    padding: 200px;
+}
+
+.hero-content__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #284a69;
+}
+
+.hero-content__text {
+    color: #284a69;
+    margin: 20px 0;
+}

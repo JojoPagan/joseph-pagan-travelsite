@@ -64,18 +64,47 @@ p{
 
 }
 
-.nav{
-    display: flex;
-    float:right;
-    list-style-type: none;
-    align-items: center;
+
+
+  .menu {
+    width: 100%;
 }
 
-.nav li {
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    color: white;
+}
+
+.nav-list__item {
     display: inline-block;
-    padding: 5px;
+}
 
-  }
+.nav-list__item--title {
+    text-align: center;
+    font-weight : 700;
+    font-size: 24px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
 
 
 
+    
