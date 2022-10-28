@@ -13,9 +13,10 @@
 }
 
 .hero-content__title {
-    font-size: 36px;
+    
     font-weight: bold;
     color: #284a69;
+   
     
     
 }
@@ -23,16 +24,60 @@
 .hero-content__text {
     color: #284a69;
     margin: 20px 0;
+    font-size: 16px;
 }
 
 .hero-image{
     
    position: relative;
-    margin: 100px 200px 200px 100px;
-    max-width: 100%;
-    
+    margin: 50px 100px 200px 100px;
+    max-width: 423px;
+}
 
-
-
+.hero-button{
+    border-radius: 25px;
+    background-color: #de6f4a;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 15px;
+    text-decoration: none;
 
 }
+
+.gallery {
+    position: relative;
+    display: flex;
+    
+    
+
+}
+
+.gallery__item {
+    padding: 200px 100px;
+   
+    
+
+    
+}
+
+.photo-1 {
+    position: relative;
+    display: inline-block;
+    background: url('/assets/images/hawaii.jpg');
+    
+}
+
+.photo-2 {
+
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    
+}
+
+.photo-3 {
+    position: relative;
+    display: inline-block;
+    height: 400px;
+}
+    
