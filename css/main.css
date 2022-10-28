@@ -44,40 +44,50 @@
 
 }
 
-.gallery {
-    position: relative;
+.recommendations-title{
+    color: #284a69;
+    margin-bottom: 35px;
+}
+
+.homepage__cards {
     display: flex;
-    
-    
-
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.gallery__item {
-    padding: 200px 100px;
-   
-    
-
-    
-}
-
-.photo-1 {
-    position: relative;
-    display: inline-block;
-    background: url('/assets/images/hawaii.jpg');
-    
-}
-
-.photo-2 {
-
-    position: relative;
-    display: inline-block;
+.homepage__card {
+    background-color: #777;
+    width: 300px;
     height: 400px;
+    border-radius: 4px;
+    color: #fff;
+    padding: 25px;
+    position: relative;
+    text-shadow: 1px 1px 0 #777;
+}
+
+
+.homepage__card-1 {
+    background-image: url('../assets/images/hawaii.jpg');
+    background-size: cover;
+    background-position: center;
     
 }
 
-.photo-3 {
-    position: relative;
-    display: inline-block;
-    height: 400px;
+.homepage__card-2 {
+    background-image: url('../assets/images/iceland.jpg');
+    background-size: cover;
+    background-position: center;
 }
-    
+
+.homepage__card-3 {
+    background-image: url('https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-image{
+width
+
+}
