@@ -21,7 +21,7 @@ h2 {
 h3{
     font-size: 30px;
     font-weight: 600;
-    color: #284a69;
+    
    
 }
 
@@ -107,6 +107,15 @@ p{
     text-decoration: underline;
 }
 
+
+
+.footer {
+    background-color: #fef9f5;
+    height: 475px;
+    width: 100%;
+    display: flex;
+
+}
 
 
     

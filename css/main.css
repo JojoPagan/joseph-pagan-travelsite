@@ -46,25 +46,30 @@
 
 .recommendations-title{
     color: #284a69;
-    margin-bottom: 35px;
+    
+    margin:40px 0px 20px 100px;
 }
 
 .homepage__cards {
     display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
+    justify-content: space-around;
+    max-width: 850px;
+    margin:auto
+    
+    
 }
 
 .homepage__card {
+    
     background-color: #777;
-    width: 300px;
+    width: 250px;
     height: 400px;
     border-radius: 4px;
     color: #fff;
-    padding: 25px;
     position: relative;
-    text-shadow: 1px 1px 0 #777;
+    text-shadow: 1px 1px 2px #777;
+    box-shadow: 1px 5px 10px #777;
+    
 }
 
 
@@ -72,6 +77,7 @@
     background-image: url('../assets/images/hawaii.jpg');
     background-size: cover;
     background-position: center;
+    
     
 }
 
@@ -82,7 +88,7 @@
 }
 
 .homepage__card-3 {
-    background-image: url('https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I');
+    background-image: url('../assets/images/greece.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -90,4 +96,11 @@
 .card-image{
 width
 
+}
+
+.maincard__bottomText {
+    position: absolute;
+    bottom: -15px;
+    right: 20px
+    
 }
