@@ -109,13 +109,36 @@ p{
 
 
 
-.footer {
+#footer{
     background-color: #fef9f5;
-    height: 475px;
-    width: 100%;
-    display: flex;
+    padding: 0px 125px;
+    display: block;
+    align-content: center;
+    text-align: center;
 
 }
+.box-footer{
+    width: 20%;
+    margin: 40px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.footer-column{
+    display: inline-block;
+    
+    width: 33%;
+}
+
+.icon{
+    
+    
+    min-height: 25px;
+    max-height: 25px;
+    
+    }
 
 
     
