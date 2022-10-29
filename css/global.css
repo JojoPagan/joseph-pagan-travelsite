@@ -1,6 +1,6 @@
 /* typography */
 body {
-    font-family: 'Montserrat';
+    font-family: 'Verdana';
     font-size:16px;
 }
 
@@ -50,9 +50,7 @@ p{
 
 
 .logo {
-    position: static;
-    align-items: baseline;
-    padding-top: 100px;
+    width:200px;
 
 }
 
@@ -68,6 +66,16 @@ p{
 
 
 
+.header-bg{
+    background-color: #fff;
+    width: 1280px;
+    z-index: 1;
+    position: fixed;
+    top:0;
+    
+}
+
+
   .menu {
     padding: 0px 100px;
 }
@@ -81,6 +89,7 @@ p{
     justify-content: space-between;
     background: rgb(255, 255, 255);
     color: white;
+    
 }
 
 .nav-list__item {
@@ -103,42 +112,77 @@ p{
 }
 
 .nav-link:hover {
-    color: darkorange;
-    text-decoration: underline;
+   
+    border-bottom:3px solid #DB7A4E;
 }
+.nav-link:active {
+   
+    border-bottom:3px solid #DB7A4E;
+}
+
 
 
 
 #footer{
     background-color: #fef9f5;
     padding: 0px 125px;
-    display: block;
-    align-content: center;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: baseline;
+    
+  
+
+}
+
+#footer-ln2{
+    background-color: #FEFAF5;
+    padding: 0px 125px 40px 125px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items:bottom;
+    vertical-align: top;
+    margin-top: 0px;
 
 }
 .box-footer{
     width: 20%;
-    margin: 40px;
-    vertical-align: middle;
-    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    vertical-align: bottom;
+    color: #335576; 
     text-align: left;
+    align-items: baseline;
+    
     
 }
 
-.footer-column{
-    display: inline-block;
-    
-    width: 33%;
-}
+
 
 .icon{
     
-    
+    padding-left: 10px;
     min-height: 25px;
     max-height: 25px;
+    vertical-align: bottom;
     
     }
+
+.footer-sub{
+    font-size: 12px;
+    font-weight: 300;
+    color:#DB7A4E;
+    margin: 0;
+    padding: 0;
+
+}
+
+.align{
+
+    position: relative;
+    align-items: baseline;
+    vertical-align: baseline;
+}
 
 
     
